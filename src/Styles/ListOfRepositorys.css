@@ -1,0 +1,47 @@
+.repository-section {
+  margin-top: 24px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: start;
+}
+.web-info {
+  margin: 0;
+  padding: 0;
+
+}
+.web-info h1 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 0;
+}
+.web-info p {
+  font-size: 1rem;
+  color: #bbb;
+  margin-top: 0.5rem;
+}
+.repository-list {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(300px, 1fr));
+  gap: 2rem;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem auto;
+}
+.button-container button {
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+  background-color: transparent;
+  color: #bbb;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.button-container button:hover {
+  background-color: #111728;
+}

@@ -1,0 +1,30 @@
+.header {
+    width: 100%;
+    background-image: url("../resources/hero-image-github-profile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 250px;
+    display: flex;
+    justify-content: center;
+}
+.form-container {
+    margin-top: 30px;
+    background-color: #20283B;
+    padding: 12px;
+    border-radius: 12px;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 30%;
+}
+.search-bar {
+    border-style: none;
+    outline: none;
+    background-color: transparent;
+    color: #bbb;
+}
+.search-bar::placeholder {
+    color: #bbb;
+}

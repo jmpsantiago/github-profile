@@ -1,0 +1,49 @@
+.app-container {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+}
+.main-content {
+  width: 80%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 1000px) {  
+  .form-container{
+    width: 70% !important;
+  }
+  .user-info-container {
+    flex-direction: column;
+    align-items: flex-start !important;
+    margin: 0;
+  }
+  .image-container {
+    top: 0;
+    left: 0;
+  }
+  .info-container {
+    margin-left: 0 !important;
+    margin-top: 100px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .repository-list{
+    display: flex !important;
+    flex-direction: column;
+  }
+  .repository-details{
+    flex-wrap: wrap !important;
+  }
+  .repository-details span {
+    justify-content: start !important;
+  }
+}
